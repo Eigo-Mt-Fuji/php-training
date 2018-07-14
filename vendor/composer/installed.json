@@ -1,0 +1,60 @@
+[
+    {
+        "name": "halilim/xml-iterator",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/halilim/xml-iterator.git",
+            "reference": "c62d371b1e1a1e54709f133b448eb59a5d5a539f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/halilim/xml-iterator/zipball/c62d371b1e1a1e54709f133b448eb59a5d5a539f",
+            "reference": "c62d371b1e1a1e54709f133b448eb59a5d5a539f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-simplexml": "*",
+            "ext-spl": "*",
+            "ext-xmlreader": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0||~5.0",
+            "squizlabs/php_codesniffer": "^2.3"
+        },
+        "time": "2017-08-10T22:40:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "XmlIterator\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Halil Özgür",
+                "email": "h@halil.im",
+                "homepage": "https://halil.im/"
+            }
+        ],
+        "description": "XML Reader to simplexml/array iterator with low memory usage and an acceptable level of ease of use.",
+        "keywords": [
+            "SimpleXML",
+            "XMLReader",
+            "iterator",
+            "xml"
+        ]
+    }
+]

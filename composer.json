@@ -1,0 +1,5 @@
+{
+    "require": {
+        "halilim/xml-iterator": "^1.0"
+    }
+}
